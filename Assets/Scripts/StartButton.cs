@@ -9,7 +9,8 @@ public class StartButton : MonoBehaviour
     public GameObject appleGroup;
     public GameObject inGameCanvas;
     public GameObject gameOverCanvas;
-    public GameObject TooltipCanvas;
+    public GameObject TooltipCanvas01;
+    public GameObject TooltipCanvas02;
     public GameObject calculate;
     GameObject appleGroupPrefab;
     GameObject calculatePrefab;
@@ -50,11 +51,16 @@ public class StartButton : MonoBehaviour
     {
         menu.SetActive(false);
 
-        TooltipCanvas.SetActive(true);
+        TooltipCanvas01.SetActive(true);
+    }
+    public void NextTooltip()
+    {
+        TooltipCanvas01.SetActive(false);
+        TooltipCanvas02.SetActive(true);
     }
     public void StartGame()
     {
-        TooltipCanvas.SetActive(false);
+        TooltipCanvas02.SetActive(false);
 
         calculatePrefab = Instantiate(calculate);
         appleGroupPrefab = Instantiate(appleGroup);

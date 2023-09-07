@@ -9,7 +9,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -642,7 +641,7 @@ ScriptsOnlyBuild:
     className: ActivationPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: 8c91bdb2fd3f5536db5dd742ef53759a
+      Hash: 61526cba8a3f17a017456c4bf822bdab
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: StartButton
@@ -667,4 +666,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: F:/AppleGamePlus/Build/230908_0148_AppleGamePlus/AppleGamePlus.exe
+  playerPath: F:/AppleGamePlus/Build/230908_0252_AppleGamePlus/AppleGamePlus.exe
