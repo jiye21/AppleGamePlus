@@ -1,0 +1,163 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "Action": "",
+      "Inputs": [],
+      "Outputs": [],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [
+        1,
+        2,
+        3
+      ],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "Il2Cpp F:/AppleGamePlus/Library/Il2cppBuildCache/iOS/il2cppOutput/Data/Metadata/global-metadata.dat",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2020.3.26f1\\Editor\\Data\\il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --additional-cpp=F:/AppleGamePlus/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp --additional-cpp=F:/AppleGamePlus/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp --incremental-g-c-time-slice=3 --avoid-dynamic-library-copy --profiler-report --map-file-parser=\"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe\" --directory=F:/AppleGamePlus/Temp/StagingArea/Data/Managed --generatedcppdir=F:/AppleGamePlus/Library/Il2cppBuildCache/iOS/il2cppOutput --stats-output-dir=F:/AppleGamePlus/Library/Il2cppBuildCache/iOS/il2cppStats",
+      "Inputs": [
+        "F:/AppleGamePlus/Temp/StagingArea/Data/Managed",
+        "F:/AppleGamePlus/Temp/StagingArea/Data/Managed/UnityEngine.dll",
+        "F:/AppleGamePlus/Temp/StagingArea/Data/Managed/mscorlib.dll",
+        "F:/AppleGamePlus/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
+        "F:/AppleGamePlus/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll",
+        "F:/AppleGamePlus/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "F:/AppleGamePlus/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
+        "F:/AppleGamePlus/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll",
+        "F:/AppleGamePlus/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll",
+        "F:/AppleGamePlus/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
+        "F:/AppleGamePlus/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "F:/AppleGamePlus/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "F:/AppleGamePlus/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
+        "F:/AppleGamePlus/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll",
+        "F:/AppleGamePlus/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll",
+        "F:/AppleGamePlus/Temp/StagingArea/Data/Managed/UnityEngine.GameCenterModule.dll",
+        "F:/AppleGamePlus/Temp/StagingArea/Data/Managed/UnityEngine.TextCoreModule.dll",
+        "F:/AppleGamePlus/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.dll",
+        "F:/AppleGamePlus/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
+        "F:/AppleGamePlus/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll",
+        "F:/AppleGamePlus/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll",
+        "F:/AppleGamePlus/Temp/StagingArea/Data/Managed/System.Core.dll",
+        "F:/AppleGamePlus/Temp/StagingArea/Data/Managed/System.dll",
+        "F:/AppleGamePlus/Temp/StagingArea/Data/Managed/Mono.Security.dll",
+        "F:/AppleGamePlus/Temp/StagingArea/Data/Managed/System.Xml.dll",
+        "F:/AppleGamePlus/Temp/StagingArea/Data/Managed/System.Configuration.dll",
+        "\"C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\""
+      ],
+      "Outputs": [
+        "F:/AppleGamePlus/Library/Il2cppBuildCache/iOS/il2cppOutput/Data/Metadata/global-metadata.dat"
+      ],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [],
+      "ToUseDependencies": [],
+      "OverwriteOutputs": false,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 1
+    },
+    {
+      "Annotation": "Copy Additional C++ File F:/AppleGamePlus/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp",
+      "Action": "copy \"F:\\AppleGamePlus\\Library\\Il2cppBuildCache\\iOS\\additionalCppFiles\\UnityICallRegistration.cpp\" \"F:\\AppleGamePlus\\Library\\Il2cppBuildCache\\iOS\\il2cppOutput\\UnityICallRegistration.cpp\" && copy /b \"F:\\AppleGamePlus\\Library\\Il2cppBuildCache\\iOS\\il2cppOutput\\UnityICallRegistration.cpp\" +,, \"F:\\AppleGamePlus\\Library\\Il2cppBuildCache\\iOS\\il2cppOutput\\UnityICallRegistration.cpp\" ",
+      "Inputs": [
+        "F:/AppleGamePlus/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp"
+      ],
+      "Outputs": [
+        "F:/AppleGamePlus/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp"
+      ],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [
+        1
+      ],
+      "ToUseDependencies": [
+        1
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 2
+    },
+    {
+      "Annotation": "Copy Additional C++ File F:/AppleGamePlus/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp",
+      "Action": "copy \"F:\\AppleGamePlus\\Library\\Il2cppBuildCache\\iOS\\additionalCppFiles\\UnityClassRegistration.cpp\" \"F:\\AppleGamePlus\\Library\\Il2cppBuildCache\\iOS\\il2cppOutput\\UnityClassRegistration.cpp\" && copy /b \"F:\\AppleGamePlus\\Library\\Il2cppBuildCache\\iOS\\il2cppOutput\\UnityClassRegistration.cpp\" +,, \"F:\\AppleGamePlus\\Library\\Il2cppBuildCache\\iOS\\il2cppOutput\\UnityClassRegistration.cpp\" ",
+      "Inputs": [
+        "F:/AppleGamePlus/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp"
+      ],
+      "Outputs": [
+        "F:/AppleGamePlus/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp"
+      ],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "ToBuildDependencies": [
+        1
+      ],
+      "ToUseDependencies": [
+        1
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 3
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "../../../Temp/StagingArea/Data/Managed"
+    },
+    {
+      "File": "artifacts/buildprogram/tundra_buildprogram.dag.json"
+    },
+    {
+      "File": "il2cpp_settings.json"
+    },
+    {
+      "File": "unitylinker_settings.json"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "../../../Temp/StagingArea/Data/Managed"
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".txt",
+    ".c",
+    ".cpp",
+    ".h",
+    ".cs",
+    ".hpp"
+  ],
+  "StructuredLogFileName": "artifacts/tundra.log.json",
+  "StateFileName": "artifacts/TundraBuildState.state",
+  "StateFileNameTmp": "artifacts/TundraBuildState.state.tmp",
+  "ScanCacheFileName": "artifacts/tundra.scancache",
+  "ScanCacheFileNameTmp": "artifacts/tundra.scancache.tmp",
+  "DigestCacheFileName": "artifacts/tundra.digestcache",
+  "DigestCacheFileNameTmp": "artifacts/tundra.digestcache.tmp",
+  "DirectoriesCausingImplicitDependencies": [],
+        "NamedNodes": {
+          "all_tundra_nodes": 0
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "artifacts/tundra.dag.json",
+  "BuildTitle": "Bee",
+  "RelativePathToRoot": ".."
+}
