@@ -667,4 +667,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: F:/AppleGamePlus/Build/AppleGamePlus/AppleGamePlus.exe
+  playerPath: F:/AppleGamePlus/Build/230908_0148_AppleGamePlus/AppleGamePlus.exe
